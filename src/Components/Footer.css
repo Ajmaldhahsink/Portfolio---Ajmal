@@ -1,0 +1,51 @@
+.footer-container{
+    width: 100%;
+    padding: 4rem 0;
+    background-color: rgba(19, 19, 19, 0.4);
+    color: white;
+}
+
+.social #icon{
+    transition: 0.3s ease;
+}
+
+.social  #icon:hover{
+    scale: 1.3;
+}
+
+.inside-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+}
+
+.left-side{
+    /* height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column; */
+    padding: 1rem;
+}
+
+.left-side .phone{
+    margin-bottom: 30px;
+}
+
+.right-side{
+    padding: 2.5rem;
+}
+
+@media screen and (max-width:640px) {
+    .inside-container{
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+    .right-side{
+        padding-left: 70px;
+        padding-bottom: 0;
+    }
+
+    
+} 
