@@ -37,6 +37,12 @@
     padding: 2.5rem;
 }
 
+@media screen and (max-width:1170px) and (min-width:768px) {
+    .left-side{
+        padding-left: 100px;
+    }
+}
+
 @media screen and (max-width:640px) {
     .inside-container{
         grid-template-columns: 1fr;

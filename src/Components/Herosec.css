@@ -107,28 +107,36 @@
 }
 
 .col-2 h1{
-    font-size: 45px !important;
+    font-size: 36px !important;
     /* color: black !important ; */
 }
 
 .col-2 h2{
-    font-size: 37px;
+    font-size: 28px !important;
 }
 
 .col-2 h2 > span{
     color: green;
+    font-size: 28px;
 }
 
 .col-2 h3{
-    font-size: 23px;
+    font-size: 20px;
 }
 
 @media screen and (max-width:913px){
     .col-2:first-child{
         margin-left: 230px;
     }
-    .col-2 h1{
+    /* .col-2 h1{
         font-size: 40px !important;
+    } */
+}
+
+@media screen and (max-width:770px) and (min-width:650px) {
+    .colone{
+        margin-left: 180px !important;
+        /* margin-right: 10px !important; */
     }
 }
 
@@ -148,28 +156,46 @@
     .col-2 h1,h2,h3{
         line-height: 40px;
     }
-    .col-2 h1{
-        font-size: 30px;
-    }
-    .col-2 h2{
+    /* .col-2 h1{
         font-size: 30px;
     }
     .col-2 h3{
         font-size: 20px;
+    } */
+    /* .col-2 h2{
+        font-size: 30px;
     }
+    .col-2 h2 > span{
+        font-size: 30px !important;
+    } */
 }
 
-@media screen and (max-width:376px) {
+@media screen and (max-width:376px) and (min-width: 330px) {
     .colone{
         min-width: 280px !important;
+        margin-right: 20px !important;
     }
     .col-2 .box{
-        width: 350px;
+        width: 330px;
     }
-    .colone h1{
+    /* .colone h1{
         font-size: 35px !important;
-    }
-    h2{
+    } */
+    /* h2{
         font-size: 30px !important;
+    }
+    .col-2 h2 > span{
+        font-size: 30px !important;
+    } */
+}
+@media screen and (max-width:320px) {
+    .hero{
+        width: 300px !important;
+    }
+    .row{
+        min-width: 320px !important;
+    }
+    .col2{
+        max-width: 250px !important;
     }
 }

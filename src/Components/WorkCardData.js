@@ -24,7 +24,7 @@ const Data = [
         title : 'Personal Blog',
         desc : "Created an impressive project for my portfolio using ReactJS, a modern and powerful JavaScript library for building user interfaces. This project showcases my proficiency in front-end development and demonstrates my ability to deliver dynamic and interactive web applications. Leveraging React's component-based architecture, I designed a responsive and visually appealing user interface, enhancing the overall user experience. The project represents a significant milestone in my journey as a web developer, highlighting my skills in utilizing cutting-edge technologies to create engaging digital experiences.",
         techstack : 'ReactJS',
-        link : 'https://github.com/Ajmaldhahsink/Portrfolio-Ajmal'
+        link : 'https://github.com/Ajmaldhahsink/Portfolio---Ajmal'
 
     }
 ];

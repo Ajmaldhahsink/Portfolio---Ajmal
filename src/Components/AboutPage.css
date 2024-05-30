@@ -34,7 +34,24 @@
 .About-container .img{
     max-width: 90%;
     height: 100%;
+}
 
+@media screen and (max-width:2600px) and (min-width:1600px) {
+    .About-container{
+        padding-left: 100px ;
+    }
+    .About-container .right{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:940px) {
+    .About-container .right{
+        max-width: 50% !important;
+    }
+    .About-container .img{
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width:940px){

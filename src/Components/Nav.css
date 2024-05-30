@@ -80,9 +80,9 @@ ul li a:hover::after{
 }
 
 @media screen and (max-width: 540px){
-    .header{
+    /* .header{
         width: 540px;
-    }
+    } */
     .nav-icon{
         top: 25px;
     }
@@ -90,9 +90,9 @@ ul li a:hover::after{
         font-size: 25px;
     }
 }
-@media screen and (max-width: 415px){
+@media screen and (max-width: 425px){
     .header{
-        width: 414px;
+        width: 100% !important;
     }
 }
 @media screen and (max-width: 395px){
@@ -119,5 +119,10 @@ ul li a:hover::after{
         font-size: 18px;
         position: absolute;
         top: 12px;
+    }
+}
+@media screen and (max-width:330px) {
+    .header{
+        width: 320px !important;
     }
 }
